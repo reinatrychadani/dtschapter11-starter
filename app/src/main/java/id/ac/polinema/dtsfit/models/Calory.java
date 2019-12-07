@@ -73,6 +73,15 @@ public class Calory implements Parcelable {
         this.calory = calory;
     }
 
+    public Calory() {
+    }
+
+    public Calory(Integer id, String food, Integer calory) {
+        this.id = id;
+        this.food = food;
+        this.calory = calory;
+    }
+
     @Override
     public int describeContents() {
         return 0;
